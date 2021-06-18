@@ -8,7 +8,7 @@ import { Router,ActivatedRoute } from '@angular/router';
 export class UserDataComponent {
     currentUser: User;
     userFromApi: User;
-id
+    id: any;
     constructor( private router: Router, private activatedRoute: ActivatedRoute
     ) {
         this.id = this.activatedRoute.snapshot.params;
